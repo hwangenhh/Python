@@ -1,3 +1,4 @@
+#Xác định mùa trong năm
 thang = float(input("Nhập tháng: "))
 if thang <= 3:
     print("Bạn sinh vào Mùa xuân")

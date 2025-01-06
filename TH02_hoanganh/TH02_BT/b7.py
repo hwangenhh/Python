@@ -1,3 +1,4 @@
+#tính chỉ số BMI
 chieu_cao = float(input("Nhập chiều cao (m): "))
 can_nang = float(input("Nhập cân nặng (kg): "))
 

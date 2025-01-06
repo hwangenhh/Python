@@ -1,3 +1,4 @@
+#in bảng cửu chươngchương
 def in_bang_cuu_chuong(n):
   """In bảng cửu chương cho số n.
 

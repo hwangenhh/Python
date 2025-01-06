@@ -1,4 +1,4 @@
-# Bài 14: Tìm số Max – Min - Mean
+# Bài 14: Tìm số Max – Min - Trung bình
 n = int(input("Nhập số lượng phần tử: "))
 heights = []
 print("Nhập chiều cao của từng sinh viên (m), nhập -1 để kết thúc:")

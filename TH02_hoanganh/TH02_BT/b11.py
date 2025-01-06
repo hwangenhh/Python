@@ -1,3 +1,4 @@
+#kiem tra so nguyen to
 def is_prime(n):
   """Kiểm tra xem n có phải là số nguyên tố hay không.
 

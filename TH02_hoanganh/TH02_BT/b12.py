@@ -1,3 +1,4 @@
+#hiển thị số nguyên tố từ 2 đến NN
 def is_prime(n):
   """Kiểm tra xem một số có phải là số nguyên tố hay không."""
   if n <= 1:
