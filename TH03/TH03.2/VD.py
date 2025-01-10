@@ -36,6 +36,7 @@ f1 = open('D:\Python\PythonGit\Test.txt', 'r')
 st1 = f1.read(15)
 print(st1,'--So ky tu la : ',len(st1))
 #ghi noi dung vao file
+f1 = open('D:\Python\PythonGit\Test.txt', 'a')
 f1.write('Noi dung moi: ')
 f1.close()
 f = open("D:\Python\PythonGit\Test.txt", "r")

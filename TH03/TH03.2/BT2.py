@@ -1,23 +1,27 @@
+#bai 16: 
+
 class Person:
+    #ham thuoc tinh
     def __init__(self, name, year, height, weight):
         self.name = name
         self.year = year
         self.height = height
         self.weight = weight
-    
+    #ham de in thong tin
     def Getting(self):
         print("Thông tin: ")
         print(f"Name: {self.name}")
         print(f"Year of Birth: {self.year}")
         print(f"Height: {self.height} m")
         print(f"Weight: {self.weight} kg")
-    
+    #ham de tinh bmi
     def Bmi(self):
         if self.height <= 0:
             return "Chiều cao phải lớn hơn 0 để tính BMI."
         bmi_value = self.weight / (self.height ** 2)
         return round(bmi_value, 2)
 
+#ham de nhap thong tin
 def get_input():
     while True:
         try:
@@ -39,6 +43,7 @@ def get_input():
         except ValueError as e:
             print(f"Lỗi nhập liệu: {e}. Vui lòng nhập lại.")
 
+#ham main de chay chuong trinh
 def main():
     name, year, height, weight = get_input()
     person = Person(name, year, height, weight)
